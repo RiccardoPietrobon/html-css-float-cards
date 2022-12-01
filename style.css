@@ -1,17 +1,13 @@
+/*generics*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
-
-body{
-    
-}
-
 img{
     max-height: 100%;
+    float: left;
 }
 
 .container{
@@ -25,12 +21,17 @@ img{
     clear: both;
 }
 
+.row{
+    margin: 0 -20px
+}
+
 .column{
     background-color: black;
     color: white;
     height: 100px;
     width: calc(100%/3);
     float: left;
+    margin: 20px;
 }
 
 h1{
