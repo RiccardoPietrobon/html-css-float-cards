@@ -9,10 +9,11 @@
 img{
     max-height: 100%;
     float: left;
+    margin-right: 5px;
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -35,14 +36,24 @@ img{
     margin: 20px;
 }
 
+.descrizione{
+    max-height: 100%;
+}
+
 h1{
     color: #e52f6e;
 }
 
 h1, p{
     text-align: center;
+    margin 20px;
 }
 
 address{
-    color: aqua;
+    color: #4cbee2;
+    font-style: normal;
+}
+
+h2, span, address{
+    margin: 5px;
 }
